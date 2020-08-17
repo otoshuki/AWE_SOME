@@ -30,5 +30,6 @@ void loop() {
   Serial.print(hum1);
   Serial.print('\t');
   Serial.println(hum2);
+  //Data can be collected every 2 seconds only
   delay(2000);
 }
